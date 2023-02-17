@@ -1,0 +1,1587 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../how-to-guides/">
+      
+      
+        <link rel="next" href="../explanation/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.9">
+    
+    
+      
+        <title>References - PSQA Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0d440cfe.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#aruco_markers_tut.findArucoMarkers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="PSQA Docs" class="md-header__button md-logo" aria-label="PSQA Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PSQA Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              References
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="PSQA Docs" class="md-nav__button md-logo" aria-label="PSQA Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    PSQA Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        PSQA Docs
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorials/" class="md-nav__link">
+        Tutorials
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-guides/" class="md-nav__link">
+        How-To Guides
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          References
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        References
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aruco_markers_tut.findArucoMarkers" class="md-nav__link">
+    aruco_markers_tut.findArucoMarkers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dia_findcolour.green_detector" class="md-nav__link">
+    dia_findcolour.green_detector
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dia_findshape.shape_detector" class="md-nav__link">
+    dia_findshape.shape_detector
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leafcount.leaf_counter" class="md-nav__link">
+    leafcount.leaf_counter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remove_contours.is_contour_bad" class="md-nav__link">
+    remove_contours.is_contour_bad
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#SimpleBlobDetector.BlobDetector" class="md-nav__link">
+    SimpleBlobDetector.BlobDetector
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../explanation/" class="md-nav__link">
+        Explanation
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aruco_markers_tut.findArucoMarkers" class="md-nav__link">
+    aruco_markers_tut.findArucoMarkers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dia_findcolour.green_detector" class="md-nav__link">
+    dia_findcolour.green_detector
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dia_findshape.shape_detector" class="md-nav__link">
+    dia_findshape.shape_detector
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leafcount.leaf_counter" class="md-nav__link">
+    leafcount.leaf_counter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remove_contours.is_contour_bad" class="md-nav__link">
+    remove_contours.is_contour_bad
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#SimpleBlobDetector.BlobDetector" class="md-nav__link">
+    SimpleBlobDetector.BlobDetector
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>References</h1>
+
+<!-- This part of the project documentation focuses on
+an **information-oriented** approach. Use it as a
+reference for the technical implementation of the
+`psqa2` project code. -->
+
+
+
+<div class="doc doc-object doc-function">
+
+
+<a id="aruco_markers_tut.findArucoMarkers"></a>
+  <div class="doc doc-contents first">
+  
+      <p>To find an existing aruco marker based on multiple inputs</p>
+<p>Note: 
+    The python virtual evironment to be used is aruco_env. </p>
+
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;findArucoMarkers(img, markerSize = 6, totalMarkers=100)</span>
+<span class="go">output: {opens multiple windows}</span>
+</code></pre></div>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;findArucoMarkers(img)</span>
+<span class="go">output: {opens multiple windows and uses default values from 1st example}</span>
+</code></pre></div>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;findArucoMarkers(img, markerSize = int_value)</span>
+<span class="go">output: {opens multiple windows}</span>
+<span class="go">        {[363. 617.][484. 617][485. 737.][363. 738.]} #shows location</span>
+<span class="go">        {pixel to inch 60.5}</span>
+</code></pre></div>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;findArucoMarkers(img, totalMarkers = int_value)</span>
+<span class="go">output: {opens multiple windows}</span>
+</code></pre></div>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>img</code></td>
+          <td>
+                <code>img</code>
+          </td>
+          <td><p>image=cv2.imread("//psqa//psqa2//Sample_pic//20230110-150032.jpg")</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>markerSize</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>An interger value based on generated aruco marker size and different values will produce different </p></td>
+          <td>
+                <code>6</code>
+          </td>
+        </tr>
+        <tr>
+          <td><code>totalMarkers</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>An interger value used to detect multiple aruco marker in img and will use default </p></td>
+          <td>
+                <code>100</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>img</code></td>          <td>
+                <code>img</code>
+          </td>
+          <td><p>image saved under //psqa//psqa2// and the image will be saved as size3.jpg as defined by i=3 line code 139}</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>psqa2\aruco_markers_tut.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">findArucoMarkers</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">markerSize</span> <span class="o">=</span> <span class="mi">6</span><span class="p">,</span> <span class="n">totalMarkers</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">draw</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;To find an existing aruco marker based on multiple inputs</span>
+
+<span class="sd">    Note: </span>
+<span class="sd">        The python virtual evironment to be used is aruco_env. </span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt;findArucoMarkers(img, markerSize = 6, totalMarkers=100)</span>
+<span class="sd">        output: {opens multiple windows}</span>
+
+<span class="sd">        &gt;&gt;&gt;findArucoMarkers(img)</span>
+<span class="sd">        output: {opens multiple windows and uses default values from 1st example}</span>
+
+<span class="sd">        &gt;&gt;&gt;findArucoMarkers(img, markerSize = int_value)</span>
+<span class="sd">        output: {opens multiple windows}</span>
+<span class="sd">                {[363. 617.][484. 617][485. 737.][363. 738.]} #shows location</span>
+<span class="sd">                {pixel to inch 60.5}</span>
+
+<span class="sd">        &gt;&gt;&gt;findArucoMarkers(img, totalMarkers = int_value)</span>
+<span class="sd">        output: {opens multiple windows}</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        img (img): image=cv2.imread(&quot;//psqa//psqa2//Sample_pic//20230110-150032.jpg&quot;)</span>
+<span class="sd">        markerSize (int): An interger value based on generated aruco marker size and different values will produce different </span>
+<span class="sd">        different dimensions as the aruco marker is used as reference object</span>
+<span class="sd">        totalMarkers (int): An interger value used to detect multiple aruco marker in img and will use default </span>
+<span class="sd">        markerSize = 6 to produce dimensions </span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        img (img): image saved under //psqa//psqa2// and the image will be saved as size3.jpg as defined by i=3 line code 139}</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+
+    <span class="n">gray</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_BGR2GRAY</span><span class="p">)</span>
+    <span class="n">key</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">cv2</span><span class="o">.</span><span class="n">aruco</span><span class="p">,</span> <span class="sa">f</span><span class="s1">&#39;DICT_</span><span class="si">{</span><span class="n">markerSize</span><span class="si">}</span><span class="s1">X</span><span class="si">{</span><span class="n">markerSize</span><span class="si">}</span><span class="s1">_</span><span class="si">{</span><span class="n">totalMarkers</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="c1">#print(key)</span>
+
+    <span class="c1">#Load the dictionary that was used to generate the markers.</span>
+    <span class="n">arucoDict</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">aruco</span><span class="o">.</span><span class="n">Dictionary_get</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+
+    <span class="c1"># Initialize the detector parameters using default values</span>
+    <span class="n">arucoParam</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">aruco</span><span class="o">.</span><span class="n">DetectorParameters_create</span><span class="p">()</span>
+
+    <span class="c1"># Detect the markers</span>
+    <span class="n">bboxs</span><span class="p">,</span> <span class="n">ids</span><span class="p">,</span> <span class="n">rejected</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">aruco</span><span class="o">.</span><span class="n">detectMarkers</span><span class="p">(</span><span class="n">gray</span><span class="p">,</span> <span class="n">arucoDict</span><span class="p">,</span> <span class="n">parameters</span> <span class="o">=</span> <span class="n">arucoParam</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">bboxs</span><span class="p">,</span> <span class="n">ids</span><span class="p">,</span> <span class="n">rejected</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<a id="dia_findcolour.green_detector"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Detect green plant colour in selected image</p>
+<p>Note: 
+    The python virtual evironment to be used is myenv.</p>
+
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;green_detector(image = &lt;image_file_path&gt;, lower_green = lower_green, upper_green=upper_green)</span>
+<span class="go">output: {windows with green regions highlighted}</span>
+</code></pre></div>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>image</code></td>
+          <td>
+                <code><span title="dia_findcolour.img">img</span></code>
+          </td>
+          <td><p>image=cv2.imread("//psqa//psqa2//Sample_pic//test_image.png")</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>lower_green</code></td>
+          <td>
+                <code>array</code>
+          </td>
+          <td><p>Values in the [] on line 9 np.array([36, 25, 25], dtype = "uint8"), all three values must be integer and will use default </p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>upper_green</code></td>
+          <td>
+                <code>array</code>
+          </td>
+          <td><p>Values in the [] on line 11 np.array([70, 255,255], dtype = "uint8"), all three values must be integer and will use default </p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>image</code></td>          <td>
+                <code><span title="dia_findcolour.img">img</span></code>
+          </td>
+          <td><p>image saved under //psqa//psqa2// and the image will be saved as green.png</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>psqa2\dia_findcolour.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">green_detector</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">lower_green</span><span class="p">,</span> <span class="n">upper_green</span><span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Detect green plant colour in selected image</span>
+
+<span class="sd">    Note: </span>
+<span class="sd">        The python virtual evironment to be used is myenv.</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt;green_detector(image = &lt;image_file_path&gt;, lower_green = lower_green, upper_green=upper_green)</span>
+<span class="sd">        output: {windows with green regions highlighted}</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        image (img): image=cv2.imread(&quot;//psqa//psqa2//Sample_pic//test_image.png&quot;)</span>
+<span class="sd">        lower_green (array): Values in the [] on line 9 np.array([36, 25, 25], dtype = &quot;uint8&quot;), all three values must be integer and will use default </span>
+<span class="sd">        lower_green = [[36, 25, 25]] to produce image</span>
+<span class="sd">        upper_green (array): Values in the [] on line 11 np.array([70, 255,255], dtype = &quot;uint8&quot;), all three values must be integer and will use default </span>
+<span class="sd">        upper_green = [[70, 255,255]] to produce image</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        image (img): image saved under //psqa//psqa2// and the image will be saved as green.png </span>
+<span class="sd">&#39;&#39;&#39;</span>
+
+    <span class="c1"># reading image</span>
+    <span class="c1"># image = cv2.imread(&#39;C://Users//derkm//Develop3//psqa//psqa2//Sample_pic//P11.jpeg&#39;)</span>
+
+    <span class="c1">## convert to hsv</span>
+    <span class="n">hsv</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_BGR2HSV</span><span class="p">)</span>
+
+    <span class="c1">## mask of green (36,25,25) ~ (86, 255,255)</span>
+    <span class="c1"># mask = cv2.inRange(hsv, (36, 25, 25), (86, 255,255))</span>
+    <span class="c1"># mask = cv2.inRange(hsv, (36, 25, 25), (70, 255,255))</span>
+    <span class="n">mask</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">inRange</span><span class="p">(</span><span class="n">hsv</span><span class="p">,</span> <span class="n">lower_green</span><span class="p">,</span> <span class="n">upper_green</span><span class="p">)</span>
+
+    <span class="c1">## slice the green</span>
+    <span class="n">imask</span> <span class="o">=</span> <span class="n">mask</span><span class="o">&gt;</span><span class="mi">0</span>
+    <span class="n">green</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">uint8</span><span class="p">)</span>
+    <span class="n">green</span><span class="p">[</span><span class="n">imask</span><span class="p">]</span> <span class="o">=</span> <span class="n">image</span><span class="p">[</span><span class="n">imask</span><span class="p">]</span>   
+
+    <span class="nb">print</span><span class="p">(</span><span class="n">imask</span><span class="p">)</span>
+    <span class="n">cv2</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="s2">&quot;green&quot;</span><span class="p">,</span> <span class="n">green</span><span class="p">)</span>
+    <span class="n">cv2</span><span class="o">.</span><span class="n">waitKey</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> 
+
+    <span class="c1"># save </span>
+    <span class="n">cv2</span><span class="o">.</span><span class="n">imwrite</span><span class="p">(</span><span class="s2">&quot;green.png&quot;</span><span class="p">,</span> <span class="n">green</span><span class="p">)</span>
+
+    <span class="n">cv2</span><span class="o">.</span><span class="n">destroyAllWindows</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<a id="dia_findshape.shape_detector"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Detect shapes/polygons in image as some leaves are labelled as ellipses 
+    and can be isolated from image to count number of leaves</p>
+<pre><code>Note:
+        The python virtual evironment to be used is myenv.
+</code></pre>
+
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;green_detector(img)</span>
+<span class="go">output: 4 windows will be opened and labelled accordingly</span>
+</code></pre></div>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>img</code></td>
+          <td>
+          </td>
+          <td><p>image=cv2.imread("//psqa//psqa2//Sample_pic//P6.png")</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>image</code></td>          <td>
+                <code><span title="dia_findshape.img">img</span></code>
+          </td>
+          <td><p>images will only be opened when running python script and images will not be saved, command prompt will show number of shapes found</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>psqa2\dia_findshape.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 78</span>
+<span class="normal"> 79</span>
+<span class="normal"> 80</span>
+<span class="normal"> 81</span>
+<span class="normal"> 82</span>
+<span class="normal"> 83</span>
+<span class="normal"> 84</span>
+<span class="normal"> 85</span>
+<span class="normal"> 86</span>
+<span class="normal"> 87</span>
+<span class="normal"> 88</span>
+<span class="normal"> 89</span>
+<span class="normal"> 90</span>
+<span class="normal"> 91</span>
+<span class="normal"> 92</span>
+<span class="normal"> 93</span>
+<span class="normal"> 94</span>
+<span class="normal"> 95</span>
+<span class="normal"> 96</span>
+<span class="normal"> 97</span>
+<span class="normal"> 98</span>
+<span class="normal"> 99</span>
+<span class="normal">100</span>
+<span class="normal">101</span>
+<span class="normal">102</span>
+<span class="normal">103</span>
+<span class="normal">104</span>
+<span class="normal">105</span>
+<span class="normal">106</span>
+<span class="normal">107</span>
+<span class="normal">108</span>
+<span class="normal">109</span>
+<span class="normal">110</span>
+<span class="normal">111</span>
+<span class="normal">112</span>
+<span class="normal">113</span>
+<span class="normal">114</span>
+<span class="normal">115</span>
+<span class="normal">116</span>
+<span class="normal">117</span>
+<span class="normal">118</span>
+<span class="normal">119</span>
+<span class="normal">120</span>
+<span class="normal">121</span>
+<span class="normal">122</span>
+<span class="normal">123</span>
+<span class="normal">124</span>
+<span class="normal">125</span>
+<span class="normal">126</span>
+<span class="normal">127</span>
+<span class="normal">128</span>
+<span class="normal">129</span>
+<span class="normal">130</span>
+<span class="normal">131</span>
+<span class="normal">132</span>
+<span class="normal">133</span>
+<span class="normal">134</span>
+<span class="normal">135</span>
+<span class="normal">136</span>
+<span class="normal">137</span>
+<span class="normal">138</span>
+<span class="normal">139</span>
+<span class="normal">140</span>
+<span class="normal">141</span>
+<span class="normal">142</span>
+<span class="normal">143</span>
+<span class="normal">144</span>
+<span class="normal">145</span>
+<span class="normal">146</span>
+<span class="normal">147</span>
+<span class="normal">148</span>
+<span class="normal">149</span>
+<span class="normal">150</span>
+<span class="normal">151</span>
+<span class="normal">152</span>
+<span class="normal">153</span>
+<span class="normal">154</span>
+<span class="normal">155</span>
+<span class="normal">156</span>
+<span class="normal">157</span>
+<span class="normal">158</span>
+<span class="normal">159</span>
+<span class="normal">160</span>
+<span class="normal">161</span>
+<span class="normal">162</span>
+<span class="normal">163</span>
+<span class="normal">164</span>
+<span class="normal">165</span>
+<span class="normal">166</span>
+<span class="normal">167</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">shape_detector</span><span class="p">(</span><span class="n">img</span><span class="p">):</span>
+
+<span class="w">	</span><span class="sd">&#39;&#39;&#39;Detect shapes/polygons in image as some leaves are labelled as ellipses </span>
+<span class="sd">	and can be isolated from image to count number of leaves</span>
+
+<span class="sd">	Note:</span>
+<span class="sd">		The python virtual evironment to be used is myenv.</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt;green_detector(img)</span>
+<span class="sd">        output: 4 windows will be opened and labelled accordingly</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        img: image=cv2.imread(&quot;//psqa//psqa2//Sample_pic//P6.png&quot;)</span>
+
+
+<span class="sd">    Returns:</span>
+<span class="sd">        image (img): images will only be opened when running python script and images will not be saved, command prompt will show number of shapes found</span>
+
+<span class="sd">	&#39;&#39;&#39;</span>
+
+	<span class="n">gray</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_BGR2GRAY</span><span class="p">)</span>
+	<span class="n">invert</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">bitwise_not</span><span class="p">(</span><span class="n">gray</span><span class="p">)</span>
+	<span class="n">cv2</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="s1">&#39;Converted gray from RGB&#39;</span><span class="p">,</span> <span class="n">gray</span><span class="p">)</span>
+	<span class="c1">#cv2.imshow(&#39;Inverted gray&#39;, invert)</span>
+
+	<span class="n">_</span><span class="p">,</span> <span class="n">th2</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">threshold</span><span class="p">(</span><span class="n">invert</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">THRESH_BINARY</span> <span class="o">+</span> <span class="n">cv2</span><span class="o">.</span><span class="n">THRESH_OTSU</span><span class="p">)</span>
+	<span class="n">cv2</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="s1">&#39;After thresholding&#39;</span><span class="p">,</span> <span class="n">th2</span><span class="p">)</span>
+
+	<span class="c1"># Finding Contours</span>
+	<span class="c1"># Use a copy of your image e.g. edged.copy(), since findContours alters the image</span>
+	<span class="n">contours</span><span class="p">,</span> <span class="n">hierarchy</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">findContours</span><span class="p">(</span><span class="n">th2</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">RETR_LIST</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">CHAIN_APPROX_NONE</span><span class="p">)</span>
+
+	<span class="c1"># Draw all contours, note this overwrites the input image (inplace operation)</span>
+	<span class="c1"># Use &#39;-1&#39; as the 3rd parameter to draw all</span>
+	<span class="n">cv2</span><span class="o">.</span><span class="n">drawContours</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">contours</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span> <span class="n">thickness</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span>
+	<span class="n">cv2</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="s1">&#39;Contours overlaid on original image&#39;</span><span class="p">,</span> <span class="n">img</span><span class="p">)</span>
+
+	<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Number of Contours found = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">contours</span><span class="p">)))</span>
+
+	<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+
+	<span class="c1"># list for storing names of shapes</span>
+	<span class="k">for</span> <span class="n">contour</span> <span class="ow">in</span> <span class="n">contours</span><span class="p">:</span>
+
+		<span class="c1"># here we are ignoring first counter because</span>
+		<span class="c1"># findcontour function detects whole image as shape</span>
+		<span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+			<span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+			<span class="k">continue</span>
+
+		<span class="c1"># cv2.approxPloyDP() function to approximate the shape</span>
+		<span class="n">approx</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">approxPolyDP</span><span class="p">(</span>
+			<span class="n">contour</span><span class="p">,</span> <span class="mf">0.01</span> <span class="o">*</span> <span class="n">cv2</span><span class="o">.</span><span class="n">arcLength</span><span class="p">(</span><span class="n">contour</span><span class="p">,</span> <span class="kc">True</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+
+		<span class="c1"># using drawContours() function</span>
+		<span class="n">cv2</span><span class="o">.</span><span class="n">drawContours</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="p">[</span><span class="n">contour</span><span class="p">],</span> <span class="mi">0</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">),</span> <span class="mi">5</span><span class="p">)</span>
+
+		<span class="c1"># finding center point of shape</span>
+		<span class="n">M</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">moments</span><span class="p">(</span><span class="n">contour</span><span class="p">)</span>
+		<span class="k">if</span> <span class="n">M</span><span class="p">[</span><span class="s1">&#39;m00&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="mf">0.0</span><span class="p">:</span>
+			<span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">M</span><span class="p">[</span><span class="s1">&#39;m10&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">M</span><span class="p">[</span><span class="s1">&#39;m00&#39;</span><span class="p">])</span>
+			<span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">M</span><span class="p">[</span><span class="s1">&#39;m01&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">M</span><span class="p">[</span><span class="s1">&#39;m00&#39;</span><span class="p">])</span>
+
+		<span class="c1"># putting shape name at center of each shape</span>
+		<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">approx</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+			<span class="n">cv2</span><span class="o">.</span><span class="n">putText</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="s1">&#39;Triangle&#39;</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span>
+						<span class="n">cv2</span><span class="o">.</span><span class="n">FONT_HERSHEY_SIMPLEX</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+
+		<span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">approx</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+			<span class="n">cv2</span><span class="o">.</span><span class="n">putText</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="s1">&#39;Quadrilateral&#39;</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span>
+						<span class="n">cv2</span><span class="o">.</span><span class="n">FONT_HERSHEY_SIMPLEX</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+
+		<span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">approx</span><span class="p">)</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span>
+			<span class="n">cv2</span><span class="o">.</span><span class="n">putText</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="s1">&#39;Pentagon&#39;</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span>
+						<span class="n">cv2</span><span class="o">.</span><span class="n">FONT_HERSHEY_SIMPLEX</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+
+		<span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">approx</span><span class="p">)</span> <span class="o">==</span> <span class="mi">6</span><span class="p">:</span>
+			<span class="n">cv2</span><span class="o">.</span><span class="n">putText</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="s1">&#39;Hexagon&#39;</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span>
+						<span class="n">cv2</span><span class="o">.</span><span class="n">FONT_HERSHEY_SIMPLEX</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+
+		<span class="k">else</span><span class="p">:</span>
+			<span class="n">cv2</span><span class="o">.</span><span class="n">putText</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="s1">&#39;circle&#39;</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span>
+						<span class="n">cv2</span><span class="o">.</span><span class="n">FONT_HERSHEY_SIMPLEX</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+
+	<span class="c1"># displaying the image after drawing contours</span>
+	<span class="n">cv2</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="s1">&#39;shapes&#39;</span><span class="p">,</span> <span class="n">img</span><span class="p">)</span>
+
+	<span class="n">cv2</span><span class="o">.</span><span class="n">waitKey</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+	<span class="n">cv2</span><span class="o">.</span><span class="n">destroyAllWindows</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<a id="leafcount.leaf_counter"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Find number of leaves in image using classical object counting method using Python OpenCV as seen in https://www.geeksforgeeks.org/count-number-of-object-using-python-opencv/</p>
+<p>Note: 
+    The python virtual evironment to be used is myenv.</p>
+
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;leaf_counter(img)</span>
+<span class="go">output: opens multiple windows</span>
+</code></pre></div>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>image</code></td>
+          <td>
+                <code><span title="leafcount.img">img</span></code>
+          </td>
+          <td><p>image=cv2.imread("//psqa//psqa2//Sample_pic//P6.png")</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+          </td>
+          <td><p>images will only be opened when running python script and images will not be saved, command prompt will show number of leaves and hierarchy found</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>psqa2\leafcount.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">leaf_counter</span><span class="p">(</span><span class="n">img</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Find number of leaves in image using classical object counting method using Python OpenCV as seen in https://www.geeksforgeeks.org/count-number-of-object-using-python-opencv/</span>
+
+<span class="sd">    Note: </span>
+<span class="sd">        The python virtual evironment to be used is myenv.</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt;leaf_counter(img)</span>
+<span class="sd">        output: opens multiple windows</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        image (img): image=cv2.imread(&quot;//psqa//psqa2//Sample_pic//P6.png&quot;)</span>
+
+
+<span class="sd">    Returns:</span>
+<span class="sd">        images will only be opened when running python script and images will not be saved, command prompt will show number of leaves and hierarchy found</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+    <span class="n">gray</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_BGR2GRAY</span><span class="p">)</span>
+
+        <span class="c1">#bluring the image</span>
+
+    <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">gray</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="s1">&#39;gray&#39;</span><span class="p">);</span>
+    <span class="n">blur</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">GaussianBlur</span><span class="p">(</span><span class="n">gray</span><span class="p">,</span> <span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">11</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">blur</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="s1">&#39;gray&#39;</span><span class="p">)</span>
+
+        <span class="c1">#canny the image</span>
+
+    <span class="n">canny</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">Canny</span><span class="p">(</span><span class="n">blur</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">canny</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">)</span>
+
+        <span class="c1">#connect the edges</span>
+
+    <span class="n">dilated</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">dilate</span><span class="p">(</span><span class="n">canny</span><span class="p">,</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">iterations</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">dilated</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="s1">&#39;gray&#39;</span><span class="p">)</span>
+
+        <span class="c1">#add contour to image</span>
+
+    <span class="p">(</span><span class="n">cnt</span><span class="p">,</span> <span class="n">heirarchy</span><span class="p">)</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">findContours</span><span class="p">(</span><span class="n">dilated</span><span class="o">.</span><span class="n">copy</span><span class="p">(),</span> <span class="n">cv2</span><span class="o">.</span><span class="n">RETR_EXTERNAL</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">CHAIN_APPROX_NONE</span><span class="p">)</span>
+    <span class="n">rgb</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_BGR2RGB</span><span class="p">)</span>
+    <span class="n">cv2</span><span class="o">.</span><span class="n">drawContours</span><span class="p">(</span><span class="n">rgb</span><span class="p">,</span> <span class="n">cnt</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">rgb</span><span class="p">)</span>
+
+        <span class="c1">#count objects in the image</span>
+
+
+    <span class="c1">#plt.imshow(cnt, cmap = &#39;cnt&#39;)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Number of Leaves: &#39;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">cnt</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Number of Hierarchy: &#39;</span><span class="p">,</span> <span class="n">heirarchy</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<a id="remove_contours.is_contour_bad"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Detect shapes/polygons in image and labels them as bad shapes/polygons 
+    and removes detected shapes/polygons from final image</p>
+<pre><code>Note: 
+        The python virtual evironment to be used is myenv.
+</code></pre>
+
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;is_contour_bad(c, removed_shape = 4)</span>
+<span class="go">output: 3 windows will be opened and labelled accordingly</span>
+</code></pre></div>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;is_contour_bad(c)</span>
+<span class="go">output: 3 windows will be opened and labelled accordingly as the default value for removed_shape=4</span>
+</code></pre></div>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;is_contour_bad(c, removed_shape = int_value)</span>
+<span class="go">output: 3 windows will be opened and labelled accordingly </span>
+<span class="go">        and int_value represents the number of vertices the shapes/polygons have. </span>
+</code></pre></div>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>c</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>default is c as the c variable is used to loop over the contours found in line 53,</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>removed_shape</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>An integer value used for number of vertices the shapes/polygons have.</p></td>
+          <td>
+                <code>4</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>images</code></td>          <td>
+                <code>img</code>
+          </td>
+          <td><p>will only be opened when running python script and images will not be saved</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>psqa2\remove_contours.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">is_contour_bad</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">removed_shape</span> <span class="o">=</span> <span class="mi">4</span><span class="p">):</span>
+<span class="w">	</span><span class="sd">&quot;&quot;&quot;Detect shapes/polygons in image and labels them as bad shapes/polygons </span>
+<span class="sd">	and removes detected shapes/polygons from final image</span>
+
+<span class="sd">	Note: </span>
+<span class="sd">		The python virtual evironment to be used is myenv.</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt;is_contour_bad(c, removed_shape = 4)</span>
+<span class="sd">        output: 3 windows will be opened and labelled accordingly</span>
+
+<span class="sd">        &gt;&gt;&gt;is_contour_bad(c)</span>
+<span class="sd">        output: 3 windows will be opened and labelled accordingly as the default value for removed_shape=4</span>
+
+<span class="sd">        &gt;&gt;&gt;is_contour_bad(c, removed_shape = int_value)</span>
+<span class="sd">        output: 3 windows will be opened and labelled accordingly </span>
+<span class="sd">		and int_value represents the number of vertices the shapes/polygons have. </span>
+
+<span class="sd">    Args:</span>
+<span class="sd">		c (str): default is c as the c variable is used to loop over the contours found in line 53,</span>
+<span class="sd">		therefore whenever the is_contour_bad() function is called, it must have c in ()</span>
+<span class="sd">		removed_shape (int): An integer value used for number of vertices the shapes/polygons have.</span>
+<span class="sd">		When removed_shape = 4, only the shapes/polygons that are rectangular in shape will not be highlighted.</span>
+
+
+<span class="sd">    Returns:</span>
+<span class="sd">        images (img): will only be opened when running python script and images will not be saved</span>
+
+<span class="sd">	&quot;&quot;&quot;</span>
+	<span class="c1"># approximate the contour</span>
+	<span class="n">peri</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">arcLength</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+	<span class="n">approx</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">approxPolyDP</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="mf">0.02</span> <span class="o">*</span> <span class="n">peri</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+	<span class="c1"># the contour is &#39;bad&#39; if it is not a rectangle</span>
+
+	<span class="n">remove_shape</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">approx</span><span class="p">)</span>
+	<span class="k">return</span> <span class="ow">not</span> <span class="n">remove_shape</span> <span class="o">==</span> <span class="n">removed_shape</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<a id="SimpleBlobDetector.BlobDetector"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Using existing algo in opencv2-python to Find and Label Plant Pot </p>
+<p>Note: 
+    The python virtual evironment to be used is myenv.</p>
+
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;BlobDetector(im, inertia_switch = True)</span>
+<span class="go">output: opens window image with red circle highlighting the detected blob as defined </span>
+</code></pre></div>
+    <div class="highlight"><pre><span></span><code><span class="go">&gt;&gt;&gt;BlobDetector(im)</span>
+<span class="go">output: opens window image with red circle highlighting the detected blob.</span>
+<span class="go">Highlighted blob will be rectangular blobs since the default inertia_switch = True</span>
+</code></pre></div>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>im</code></td>
+          <td>
+                <code>img</code>
+          </td>
+          <td><p>image=cv2.imread("//psqa//psqa2//Sample_pic//20230110-150032.jpg")</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>inertia_switch</code></td>
+          <td>
+                <code>bool</code>
+          </td>
+          <td><p>An boolean value based on the paramaters set in line 61-64 </p></td>
+          <td>
+                <code>True</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>image</code></td>          <td>
+                <code>img</code>
+          </td>
+          <td><p>images will only be opened when running python script and images will not be saved, command prompt will show size of image</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>psqa2\SimpleBlobDetector.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span>
+<span class="normal">75</span>
+<span class="normal">76</span>
+<span class="normal">77</span>
+<span class="normal">78</span>
+<span class="normal">79</span>
+<span class="normal">80</span>
+<span class="normal">81</span>
+<span class="normal">82</span>
+<span class="normal">83</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">BlobDetector</span><span class="p">(</span><span class="n">im</span><span class="p">,</span> <span class="n">inertia_switch</span> <span class="o">=</span> <span class="kc">True</span><span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Using existing algo in opencv2-python to Find and Label Plant Pot </span>
+
+<span class="sd">        Note: </span>
+<span class="sd">            The python virtual evironment to be used is myenv.</span>
+
+<span class="sd">        Examples:</span>
+<span class="sd">            &gt;&gt;&gt;BlobDetector(im, inertia_switch = True)</span>
+<span class="sd">            output: opens window image with red circle highlighting the detected blob as defined </span>
+
+<span class="sd">            &gt;&gt;&gt;BlobDetector(im)</span>
+<span class="sd">            output: opens window image with red circle highlighting the detected blob.</span>
+<span class="sd">            Highlighted blob will be rectangular blobs since the default inertia_switch = True</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            im (img): image=cv2.imread(&quot;//psqa//psqa2//Sample_pic//20230110-150032.jpg&quot;)</span>
+<span class="sd">            inertia_switch (bool): An boolean value based on the paramaters set in line 61-64 </span>
+<span class="sd">            different dimensions as the aruco marker is used as reference object</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            image (img): images will only be opened when running python script and images will not be saved, command prompt will show size of image</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="n">im</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+
+    <span class="c1"># Setup SimpleBlobDetector parameters.</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">SimpleBlobDetector_Params</span><span class="p">()</span>
+
+    <span class="c1"># Change thresholds</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">minThreshold</span> <span class="o">=</span> <span class="mi">50</span><span class="p">;</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">maxThreshold</span> <span class="o">=</span> <span class="mi">200</span><span class="p">;</span>
+
+    <span class="c1"># Filter by Area. Example minArea=100&lt;=100 pixels</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">filterByArea</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">minArea</span> <span class="o">=</span> <span class="mi">1000</span>
+    <span class="c1">#params.maxArea = 2000</span>
+
+    <span class="c1"># Filter by Circularity</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">filterByCircularity</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="c1"># params.minCircularity = 0.1 is default</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">minCircularity</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="c1">#For perfect circle</span>
+
+    <span class="c1"># Filter by Convexity</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">filterByConvexity</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">minConvexity</span> <span class="o">=</span> <span class="mf">0.87</span>
+    <span class="c1"># params.minConvexity = 0.8 is default</span>
+
+
+    <span class="c1"># Filter by Inertia</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">filterByInertia</span> <span class="o">=</span> <span class="n">inertia_switch</span>
+    <span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">params</span><span class="o">.</span><span class="n">minInertiaRatio</span> <span class="o">&lt;=</span> <span class="mi">1</span>
+    <span class="n">params</span><span class="o">.</span><span class="n">maxInertiaRatio</span> <span class="o">&lt;=</span> <span class="mi">1</span>
+
+    <span class="c1"># params.minInertiaRatio = 0.01</span>
+
+    <span class="c1"># Create a detector with the parameters</span>
+    <span class="n">ver</span> <span class="o">=</span> <span class="p">(</span><span class="n">cv2</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">ver</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">&lt;</span> <span class="mi">3</span> <span class="p">:</span>
+        <span class="n">detector</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">SimpleBlobDetector</span><span class="p">(</span><span class="n">params</span><span class="p">)</span>
+    <span class="k">else</span> <span class="p">:</span> 
+        <span class="n">detector</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">SimpleBlobDetector_create</span><span class="p">(</span><span class="n">params</span><span class="p">)</span>
+
+    <span class="c1"># Set up the detector with default parameters.</span>
+    <span class="c1"># detector = cv2.SimpleBlobDetector_create()</span>
+
+    <span class="c1"># Detect blobs.</span>
+    <span class="n">keypoints</span> <span class="o">=</span> <span class="n">detector</span><span class="o">.</span><span class="n">detect</span><span class="p">(</span><span class="n">im</span><span class="p">)</span>
+
+    <span class="c1"># Draw detected blobs as red circles.</span>
+    <span class="c1"># cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS ensures the size of the circle corresponds to the size of blob</span>
+    <span class="n">im_with_keypoints</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">drawKeypoints</span><span class="p">(</span><span class="n">im</span><span class="p">,</span> <span class="n">keypoints</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([]),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">),</span> <span class="n">cv2</span><span class="o">.</span><span class="n">DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS</span><span class="p">)</span>
+
+    <span class="c1"># Show keypoints</span>
+    <span class="n">cv2</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="s2">&quot;Keypoints&quot;</span><span class="p">,</span> <span class="n">im_with_keypoints</span><span class="p">)</span>
+    <span class="n">cv2</span><span class="o">.</span><span class="n">waitKey</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+    
+  </body>
+</html>
